@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form>
+        <table border="01" align="center" cellsapcing="10" cellpadding="5">
+            <tr>
+                <th>
+                    <label>Name</label>
+                </th>
+                <td >
+                    <input type="text"
+                    id="name"
+                     placeholder="Enter your Name" 
+                     autofocus
+                     maxlength="15"
+                     required
+                     >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Password</label>
+                </th>
+                <td>
+                    <input type="password"
+                    id="password"
+                    placeholder="Enter your Password here"
+                    autofocus
+                    maxlength="15"
+                    required
+                    
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th><label>Email</label></th>
+                 <td><input type="email"
+                    id="email"
+                 placeholder="Enter your email"
+                  autofocus
+                  required
+                >
+                </td>
+                
+            </tr>
+            <tr>
+                <th>
+                    DOB
+                </th>
+                <td>
+                    <input type="date"
+                     required
+                    >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Address
+                </th>
+                <td>
+                    <textarea placeholder="Enter Your Address" id="Address" required>
+                    
+                        
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        Mobile
+                    </label>
+                </th>
+                <td><input type="number"
+                     required
+                     id="mobile"
+                     placeholder="Enter Your Mobile Number"
+                     min="6000000000"
+                     max="9999999999"
+                     autofocus
+                
+                ></td>
+            </tr>
+            <tr>
+                <th>
+                    Hobbies
+                </th>
+                
+                    <td>
+                    <select multiple name="hobbies">
+                        <option>
+                            Cricket
+                        </option>
+                        <option>
+                            Football
+                        </option>
+                        <option>
+                            Hockey
+                        </option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        Gender
+                    </label>
+                </th>
+                <td>
+                    <input type="radio"  
+                    
+                    id="gender"
+                    name="gender"
+                    checked
+                    >Male
+                    <input type="radio"
+                    id="gender"
+                    name="gender"
+                    >Female
+                    
+
+                </td>
+                
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>
+                    <input type="checkbox"
+                     id="Language"
+                     name="Language"
+                     checked
+                    >Tamil
+                    <input type="checkbox"
+                    id="Language"
+                    name="Language"
+                    >English
+                    <input type="checkbox"
+                    id="Language"
+                    name="Language"
+                    >Hindi
+                    
+
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Profile Picture
+                </th>
+                <td>
+                    <input type="file" required name="Profile">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Fav Song
+                </th>
+                <td>
+                    <audio controls src="./sample audio.mp3" 
+                     Your Browser doesnt support audio format
+                     >
+                </td>
+                
+            </tr>
+            <tr>
+                <th>
+                <label>Video</label>
+            </th>
+            <td>
+                <video controls src="./sample video.mp4"
+                 width="250" height="250"
+                ></video>
+            </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <button type="submit">Register</button>
+                    <td><button type="reset">Clear Form</button></td>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
